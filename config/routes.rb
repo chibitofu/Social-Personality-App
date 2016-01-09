@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'personality#index'
+
   get 'session/create'
 
   get 'session/update'
@@ -19,7 +21,7 @@ Rails.application.routes.draw do
 
   get 'personality/destroy'
 
-  get 'personality/index'
+  # get 'personality/index'
 
   get 'personality/show'
 
